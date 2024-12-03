@@ -1,0 +1,20 @@
+/* styles.css */
+
+.container {
+  position: relative;
+  max-width: 600px; /* Adjust the width as needed */
+  margin: 20px auto; /* Center the container horizontally with some top/bottom margin */
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.file-input {
+  display: none; /* Hide the actual file input */
+}
+
+.cancel-icon {
+  cursor: pointer; /* Make it look clickable */
+  margin-left: 10px; /* Add some space between file name and icon */
+}

@@ -1,0 +1,65 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Cache-Control": "no-cache",
+        "Vary": "Accept-Encoding",
+        "Set-Cookie": "ARRAffinity=caa95307c6ce3c6cdfe9dcd54cbbd306c307ca14fa016d0ba51771543379995e15134d20c556b0b34b9b6ae43ec3f5dcdad61788de889ffc592af7aca85fc1c508DC905DB6B4D86A198305579; path=/; secure; HttpOnly,ReqClientId=ea01cbf8-5ea3-437d-bea9-49c4098fc208; expires=Tue, 19-Jun-2074 12:15:35 GMT; path=/; secure; HttpOnly,ARRAffinity=caa95307c6ce3c6cdfe9dcd54cbbd306c307ca14fa016d0ba51771543379995e15134d20c556b0b34b9b6ae43ec3f5dcdad61788de889ffc592af7aca85fc1c508DC905DB6B4D86A198305579; path=/; secure; HttpOnly",
+        "x-ms-service-request-id": "f3a06cfc-e494-4be3-b284-5c48a915b7da",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+        "REQ_ID": "f3a06cfc-e494-4be3-b284-5c48a915b7da",
+        "CRM.ServiceId": "CRMAppPool",
+        "AuthActivityId": "a554a9d2-20bd-475b-8847-bc794e20fd74",
+        "x-ms-dop-hint": "4",
+        "x-ms-ratelimit-time-remaining-xrm-requests": "1,199.89",
+        "x-ms-ratelimit-burst-remaining-xrm-requests": "7993",
+        "OData-Version": "4.0",
+        "Preference-Applied": "odata.include-annotations=\"*\"",
+        "X-Source": "1172452121751224315923014220420024710918189120944147522182521876613431142222231525197,123241222131418522424894223133119221150112235240115227862351901761943616712379148110250",
+        "Public": "OPTIONS,GET,HEAD,POST",
+        "Date": "Wed, 19 Jun 2024 12:15:34 GMT",
+        "Allow": "OPTIONS,GET,HEAD,POST",
+        "Content-Type": "application/json; odata.metadata=full",
+        "Content-Length": "1914",
+        "Expires": "-1"
+    },
+    "body": {
+        "@odata.context": "https://orgb6a0fd0a.crm8.dynamics.com/api/data/v9.1/$metadata#salesorders(salesorderid)",
+        "#Microsoft.Dynamics.CRM.FulfillSalesOrder": {
+            "title": "FulfillSalesOrder",
+            "target": "https://orgb6a0fd0a.crm8.dynamics.com/api/data/v9.1/salesorders/Microsoft.Dynamics.CRM.FulfillSalesOrder"
+        },
+        "#Microsoft.Dynamics.CRM.ValidateSharePointFolder": {
+            "title": "ValidateSharePointFolder",
+            "target": "https://orgb6a0fd0a.crm8.dynamics.com/api/data/v9.1/salesorders/Microsoft.Dynamics.CRM.ValidateSharePointFolder"
+        },
+        "#Microsoft.Dynamics.CRM.CreateMultiple": {
+            "title": "CreateMultiple",
+            "target": "https://orgb6a0fd0a.crm8.dynamics.com/api/data/v9.1/salesorders/Microsoft.Dynamics.CRM.crmbaseentity/Microsoft.Dynamics.CRM.CreateMultiple"
+        },
+        "#Microsoft.Dynamics.CRM.DeleteMultiple": {
+            "title": "DeleteMultiple",
+            "target": "https://orgb6a0fd0a.crm8.dynamics.com/api/data/v9.1/salesorders/Microsoft.Dynamics.CRM.crmbaseentity/Microsoft.Dynamics.CRM.DeleteMultiple"
+        },
+        "#Microsoft.Dynamics.CRM.UpdateMultiple": {
+            "title": "UpdateMultiple",
+            "target": "https://orgb6a0fd0a.crm8.dynamics.com/api/data/v9.1/salesorders/Microsoft.Dynamics.CRM.crmbaseentity/Microsoft.Dynamics.CRM.UpdateMultiple"
+        },
+        "#Microsoft.Dynamics.CRM.UpsertMultiple": {
+            "title": "UpsertMultiple",
+            "target": "https://orgb6a0fd0a.crm8.dynamics.com/api/data/v9.1/salesorders/Microsoft.Dynamics.CRM.crmbaseentity/Microsoft.Dynamics.CRM.UpsertMultiple"
+        },
+        "@Microsoft.Dynamics.CRM.totalrecordcount": -1,
+        "@Microsoft.Dynamics.CRM.totalrecordcountlimitexceeded": false,
+        "@Microsoft.Dynamics.CRM.globalmetadataversion": "5347232",
+        "value": [
+            {
+                "@odata.type": "#Microsoft.Dynamics.CRM.salesorder",
+                "@odata.id": "https://orgb6a0fd0a.crm8.dynamics.com/api/data/v9.1/salesorders(21786de8-2b2e-ef11-8e4f-002248d62a7d)",
+                "@odata.etag": "W/\"5380862\"",
+                "@odata.editLink": "salesorders(21786de8-2b2e-ef11-8e4f-002248d62a7d)",
+                "salesorderid@odata.type": "#Guid",
+                "salesorderid": "21786de8-2b2e-ef11-8e4f-002248d62a7d"
+            }
+        ]
+    }
+}
